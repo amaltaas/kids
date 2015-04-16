@@ -1,0 +1,51 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Amaltaas - Software for Kids</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="page">
+    {% include nav.html %}
+
+    <!-- Main content area -->
+    <div class="container">
+        <div class="row">
+            <img class="col-sm-4" src="images/samurai.png"/>
+
+            <div class="col-sm-8">
+                <h3>
+                    Our mission is to bring the joy of learning to children in the digital age. We create applications
+                    that are ad free and child friendly which provide a fun and entertaining way for kids to learn by
+                    themselves.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>
+                    We design our applications to make them attractive to kids of all ages. We focus on creating unique
+                    learning experiences using the right mix of fun and challenging content.
+                </h3>
+            </div>
+            <img class="col-sm-4 pull-right" src="images/trophy.png"/>
+        </div>
+
+        {% include footer.html %}
+    </div>
+</div>
+</body>
+</html>

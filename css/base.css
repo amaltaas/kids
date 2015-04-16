@@ -1,0 +1,93 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  margin: 30px 10px 20px 0;
+}
+
+.navbar-brand {
+  margin-top: 10px;
+}
+
+.row {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+ul.list-unstyled > li,
+ol.list-unstyled > li {
+  line-height: 200%;
+}
+
+a {
+    color: #f7931e;
+}
+
+.col-hright-vcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(300px);
+}
+
+.col-hleft-vcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 20px;
+}
+
+img.hero-image {
+    margin-left: -25px;
+}
+
+.hero-panel {
+}
+
+.nav {
+  font-weight: 400;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 0px #CCC;
+  -moz-box-shadow: 0px 6px 0px #CCC;
+  box-shadow: 0px 6px 0px #CCC;
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  background: #fff;
+  padding: 30px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background: #f7f7f7;
+  text-decoration: none;
+}
+
+.sitemap {
+}
+
+.sitemap > h4 {
+    font-weight: 600;
+}
