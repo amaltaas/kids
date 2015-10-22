@@ -29,6 +29,22 @@ hr {
 	clear: both;
 }
 
+.review-title {
+	font-size: 1.2em;
+	color: #222;
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+
+.review-subtitle {
+	font-size: .8em;
+	color: #999;
+}
+
+.star {
+	width: 30px;
+}
+
 a {
 	font-weight: bold;
 	text-decoration: none;
