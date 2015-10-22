@@ -1,36 +1,15 @@
 ---
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>Amaltaas - Software for Kids</title>
+{% include header.html %}
+	{% include nav.html %}
 
-    <link rel="shortcut icon" href="images/favicon.ico"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/base.css"/>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<div id="page">
-    {% include nav.html %}
-
-    <!-- Main content area -->
-    <div class="container main-content-container">
-        {% include about-nav.html %}
-        <div class="row">
-            <h3>
-              Amaltaas is a small family-oriented company that strives to create software for children.
-            </h3>
-        </div>
-
-        {% include footer.html %}
-    </div>
-</div>
-</body>
-</html>
+	<div class="container" id="top">
+		<h2>About Us</h2>
+		<p>Amaltaas develops and publishes entertaining and educational mobile apps that work for kids and adults alike. Founded by a team of passionate engineers and illustrators, Amaltaas creates truly meaningful digital experiences beloved and respected by kids, parents, and educators. We serve communities that are usually overlooked due to market-driven economics.</p>
+    <p>We can be found on:<br/>
+      Facebook: <a href="https://www.facebook.com/amaltaaskids">https://www.facebook.com/amaltaaskids</a><br/>
+      Twitter: <a href="https://twitter.com/amaltaaskids">https://twitter.com/amaltaaskids</a><br/>
+      Google+: <a href="https://plus.google.com/+amaltaaskids">https://plus.google.com/+amaltaaskids</a><br/>
+    </p>
+	</div>
+{% include footer.html %}
